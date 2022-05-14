@@ -1,0 +1,30 @@
+img{
+    float: right;
+    width: 350px;
+    padding: 15px;
+
+}
+section{
+    margin: 50px;
+    background-color: lightgray;
+    border: solid 2px black;
+    color: purple;
+    border-radius: 5px;
+}
+h1{
+    color: orange;
+}
+.clear{
+    clear:both;
+}
+
+.mar{
+    margin: 20px 50px;
+}
+
+.text{
+    padding: 3em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
