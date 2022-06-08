@@ -16,6 +16,7 @@ nav {
 }
 #hero-msg h1{
     text-align: center;
+    color: white;
 }
 .button-box {
     text-align: center;
@@ -202,6 +203,9 @@ main section img {
     }
     #hero-msg h4 {
         display: none;
+    }
+    #hero-msg h1 {
+        color:#D4A373;
     }
     .home-title {
         font-size: 25px;
