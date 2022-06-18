@@ -150,6 +150,10 @@ a:hover {
     justify-content: center;
     align-self: center;
 }
+.logo {
+    width: 112px;
+    padding: 5px 0;
+}
 .rivers-card {
     margin: 200px 0;
     grid-column: 2/4;
