@@ -1,3 +1,128 @@
-img {
-    width: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Homemade+Apple&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', 'Times New Roman';
+}
+nav a {
+    text-align: center;
+    color: #F9DCC4;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 22px;
+}
+nav a:hover {
+    background-color: #F7A399;
+    color: white;
+    text-decoration: underline;
+    
+}
+header {
+    background-color: #BB9457;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-content: center;
+    align-self: center;
+}
+.logo {
+    width: 130px;
+    padding: 0 2px;
+}
+.home-title {
+    color: #EF6351;
+    font-family: 'Homemade Apple', 'Sans Serif';
+    font-size: 2em;
+    margin-top: 10px;
+}
+footer {
+    background-color: #BB9457;
+    color:#F9DCC4;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Quicksand', 'Times New Roman';
+    font-size: 22px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer h3 {
+    text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
+}
+main {
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+}    
+p {
+    font-family: 'Quicksand', 'Times New Roman';   
+}
+h1, h2, h3 {
+    color: #EF6351;
+    font-family: 'Homemade Apple', 'Sans Serif';
+}
+.intro {
+    grid-column: 1/3;
+    margin: 50px 250px;
+}
+.home-img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.porosity {
+    background-color: #F7A399;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 50px 150px 50px 0px; 
+}
+.low {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin: 50px 50px; 
+}
+.high {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin: 50px 50px;
+}
+.types-img {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin: 50px 350px;
+    border: solid 10px #BB9457;
+    transition: transform .5s;
+    box-shadow: scale(1.1);
+}
+.hair-types {
+    grid-row: 5/6;
+    grid-column: 1/3;
+    margin-right: 200px;
+    margin-left: 200px;
 }
